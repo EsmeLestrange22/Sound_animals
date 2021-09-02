@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Sound Controlled animals</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body>
+
+    <center>
+        <div class="header text-center">
+            <h2>Sound Controlled Animals!</h2>
+            <label>Note: To make the animals appear, click on start and play different sounds like meowing, chattering,
+                or a squeak</label>
+        </div>
+    </center>
+    <br> <br>
+    <div class="eh">
+        <center>
+            <button class="btn btn-primary" onclick="record_now()">Start</button>
+            <br> <br>
+            <h3 id="hear">I can hear: </h3>
+            <h3 id="acc">My confidence level is:</h3>
+            <br> <br>
+            <img src="" id="animal">
+        </center>
+    </div>
+</body>
+<script src="control.js"></script>
+
+</html>

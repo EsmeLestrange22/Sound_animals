@@ -1,0 +1,17 @@
+.header {
+    background-color: cyan;
+    font-family: cursive;
+    color: crimson;
+    border-radius: 25px;
+    width: 750px;
+}
+.eh {
+    
+    font-family: cursive;
+    color: navy;
+}
+
+body {
+    background: linear-gradient(rgb(5, 209, 5), rgb(4, 138, 4));
+    
+}
